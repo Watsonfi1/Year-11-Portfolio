@@ -1,3 +1,10 @@
+@font-face {
+    font-family: LindenHill;
+    src: url(LindenHill-Regular.ttf);
+}
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color:rgb(21, 97, 109);
 }
@@ -12,4 +19,45 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'LindenHill';
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
 }
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'LindenHill';
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    margin: 0;
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
+    transform: scale(1.2);
+}
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color:rgb(160, 210, 219);
+    width: 100%;
+    z-index: 1;
+}
+.subnav-content a {
+    float: left;
+    color: white;
+    font-family: 'LindenHill';
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    text-decoration: none;
+}
+.subnav:hover .subnav-content {
+    display: block;
+  }
