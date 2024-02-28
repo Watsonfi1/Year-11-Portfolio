@@ -14,10 +14,10 @@ body {
 }
 .navbar a {
     float: left;
-    font-size: 20px;
+    font-size: 40px;
     color: white;
     text-align: center;
-    padding: 18px 20px;
+    padding: 36px 40px;
     text-decoration: none;
     font-family: 'LindenHill';
     font-weight: 700;
@@ -28,15 +28,15 @@ body {
     overflow: hidden;
 }
 .subnav .subnavbtn {
-    font-size: 20px;
+    font-size: 40px;
     border: none;
     outline: none;
     color: white;
-    padding: 18px 20px;
+    padding: 36px 40px;
     background-color: inherit;
     font-family: 'LindenHill';
     font-weight: 700;
-    -webkit-text-stroke:2px black;
+    -webkit-text-stroke:1px black;
     margin: 0;
 }
 .navbar a:hover, .subnav:hover .subnavbtn {
@@ -56,7 +56,7 @@ body {
     font-family: 'LindenHill';
     text-decoration: none;
     font-weight: 700;
-    -webkit-text-stroke:2px black;
+    -webkit-text-stroke:1px black;
 }
 .subnav:hover .subnav-content {
     display: block;
@@ -64,5 +64,11 @@ body {
 h1,h2 {
     color: white;
     font-weight: 700;
-    -webkit-text-stroke:2px black;
+    -webkit-text-stroke:1px black;
+}
+h1{
+    font-size:68px
+}
+h2{
+    font: size 60px;
 }
