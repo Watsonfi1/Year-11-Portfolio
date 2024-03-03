@@ -1,13 +1,28 @@
 @font-face {
     font-family: LindenHill;
-    src: url(LindenHill-Regular.ttf);
+    src: url('./fonts/LindenHill-Regular.ttf');
+}
+.header {
+    background: url('./images/F-16.jpg');
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.bgcover {
+    background-color:rgba(21, 97, 109, 0.9);
+    overflow: show;
+    height: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
 }
 html {
     scroll-behavior: smooth;
-}
-body {
-    background-color:rgba(21, 97, 109, 0.301);
-    #img here
 }
 .navbar {
     overflow: hidden;
@@ -22,7 +37,7 @@ body {
     text-decoration: none;
     font-family: 'LindenHill';
     font-weight: 700;
-    -webkit-text-stroke:2px black;
+    -webkit-text-stroke:0.25px black;
 }
 .subnav {
     float: left;
@@ -37,7 +52,7 @@ body {
     background-color: inherit;
     font-family: 'LindenHill';
     font-weight: 700;
-    -webkit-text-stroke:2px black;
+    -webkit-text-stroke:0.25px black;
     margin: 0;
 }
 .navbar a:hover, .subnav:hover .subnavbtn {
@@ -57,7 +72,7 @@ body {
     font-family: 'LindenHill';
     text-decoration: none;
     font-weight: 700;
-    -webkit-text-stroke:2px black;
+    -webkit-text-stroke:0.25px black;
 }
 .subnav:hover .subnav-content {
     display: block;
