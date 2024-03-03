@@ -9,7 +9,9 @@
     background-position: center;
     background-attachment: fixed; 
 }
-
+body { 
+    background-color:rgba(21, 97, 109, 0.9);
+}
 .bgcover {
     background-color:rgba(21, 97, 109, 0.9);
     overflow: show;
