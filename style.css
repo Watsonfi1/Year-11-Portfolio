@@ -2,26 +2,60 @@
     font-family: LindenHill;
     src: url('./fonts/LindenHill-Regular.ttf');
 }
-.header {
-    background: url('./images/F-16.jpg');
-    height: 100vh;
-    background-size:cover;
-    background-position: center;
-    background-attachment: fixed; 
-}
 body { 
     background-color:rgba(21, 97, 109, 0.9);
+    margin: 0;
+}
+h1,h2 {
+    color: white;
+    font-weight: 700;
+    -webkit-text-stroke:2px black;
+}
+h1{
+    font-size:68px;
+}
+h2{
+    font-size:56px;
+}
+a {
+    color:white
+}
+a:hover {
+    transform: scale(1.3);
+}
+.text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
 }
 .bgcover {
     background-color:rgba(21, 97, 109, 0.9);
     overflow: show;
     height: 100%;
 }
-
-.text {
+.header {
+    background: url('./images/F-16.jpg');
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-attachment: local; 
+}
+.projectheader {
+    background: url('./images/F-16.jpg');
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-attachment:local; 
+}
+.projecttext {
     position: absolute;
     top: 30%;
     left: 10%;
+}
+.projectbgcover {
+    background-color:rgba(21, 97, 109, 0.9);
+    overflow: show;
+    height: 100%;
 }
 html {
     scroll-behavior: smooth;
@@ -29,6 +63,7 @@ html {
 .navbar {
     overflow: hidden;
     background-color: rgb(160, 210, 219);
+    border-style: solid;
 }
 .navbar a {
     float: left;
@@ -64,9 +99,10 @@ html {
     display: none;
     position: absolute;
     left: 0;
-    background-color:rgb(162, 222, 233);
+    background-color:rgb(160, 210, 219);
     width: 100%;
     z-index: 1;
+    border-style: solid;
 }
 .subnav-content a {
     float: left;
@@ -79,14 +115,23 @@ html {
 .subnav:hover .subnav-content {
     display: block;
 }
-h1,h2 {
-    color: white;
-    font-weight: 700;
-    -webkit-text-stroke:2px black;
+.contents {
+    color:black;
+    font-size: 40px;
+    font-family: 'LindenHill';
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    list-style: none;
+    font-weight: 600;
+    -webkit-text-stroke:0.1px black;
 }
-h1{
-    font-size:68px;
+.left-text {
+    flex: 0 0 45%;
+    margin-right: 40px;
 }
-h2{
-    font-size:56px;
+
+.right-text {
+    flex: 0 0 45%;
+    margin-left: 40px;
 }
