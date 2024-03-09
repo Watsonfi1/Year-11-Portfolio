@@ -189,6 +189,10 @@ html {
     margin-right: 1000px;
 }
 .right-text {
+    flex: 0 0 70%;
+    margin-left: -220px;
+}
+.right-img{
     flex: 0 0 60%;
     margin-left: -220px;
 }
