@@ -60,6 +60,7 @@ li {
     font-size: 30px;
     margin-left: 300px;
     color: white;
+    text-decoration: none;
 }
 thead{
     color: white;
@@ -80,9 +81,22 @@ table {
     border-collapse: collapse;
 }
 .text {
-    position: absolute;
+    position:absolute;
     top: 30%;
     left: 10%;
+}
+.titletext{
+    position:absolute;
+    top: 30%;
+    left: 35%;
+}
+.bigtitle{
+    font-size: 110px;
+}
+.titletextsmaller{
+    position:relative;
+    font-size: 90px;
+    left: 2%;
 }
 .bgcover {
     background-color:rgba(21, 97, 109, 0.9);
@@ -90,14 +104,14 @@ table {
     height: 100%;
 }
 .header {
-    background: url('./images/F-16.jpg');
+    background: url('./images/F-16.png');
     height: 100vh;
     background-size:cover;
     background-position: center;
     background-attachment: local; 
 }
 .projectheader {
-    background: url('./images/F-16.jpg');
+    background: url('./images/F-16.png');
     height: 100vh;
     background-size:cover;
     background-position: center;
@@ -205,7 +219,7 @@ html {
     margin: 0 auto;
 }
 .smaller {
-    font-size: 64px;
+    font-size: 68px;
 }
 .link__text {
     font-size: 30px;
@@ -217,7 +231,7 @@ html {
     transition: all .3s;
 }
 .link__text:hover {
-    color: black;
+    transform: scale(1.3);
 }
 .link_text_dev {
     font-size: 80px;
@@ -270,7 +284,7 @@ html {
 .link__repo {
     height: 40px;
     width: 40px;
-    margin-left: 20px;
+    margin-left: 300px;
     transition: all .3s;
     border: none;
 }
@@ -296,4 +310,7 @@ html {
 .centerfont{
     text-align: center;
     margin-right: 400px;
+}
+a:link {
+    text-decoration: none;
 }
