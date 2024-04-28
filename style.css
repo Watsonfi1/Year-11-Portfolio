@@ -257,8 +257,9 @@ html {
 .project_img {
     float: right;
     margin-right: 400px;
-    margin-top: -20%;
+    margin-top: -30%;
     border: 2px solid white;
+    scale: 0.8;
 }
 .placeholderimg {
     float: right;
