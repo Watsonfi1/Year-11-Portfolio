@@ -278,6 +278,14 @@ html {
     max-width: 700px;
     
 }
+.placeholderimg2 {
+    float: right;
+    margin-right: 400px;
+    margin-top: -20%;
+    left: -30%;
+    border: 2px solid white;
+    max-width: 400px;
+}
 .listimg {
     float: right;
     margin-top: -5%;
